@@ -1,0 +1,7 @@
+#Spring
+spring:
+  application:
+    name: mssc-asu-gateway
+#General configuration
+server:
+  port: 8112
