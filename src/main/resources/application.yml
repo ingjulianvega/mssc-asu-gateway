@@ -1,7 +1,12 @@
 #Spring
 spring:
   application:
-    name: mssc-asu-gateway
+    name: @artifactId@
+  profiles:
+    active: local-discovery
 #General configuration
 server:
   port: 8112
+logging:
+  level:
+    org.springframework.cloud.gateway: debug
