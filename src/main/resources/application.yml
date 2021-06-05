@@ -10,10 +10,7 @@ spring:
 #General configuration
 server:
   port: 8112
+#Logging
 logging:
   level:
-    org.springframework.cloud.gateway: debug
-#Eureka
-eureka:
-  client:
-    register-with-eureka: false
+    root: DEBUG
