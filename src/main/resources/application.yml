@@ -4,7 +4,7 @@ spring:
     name: @artifactId@
   profiles:
     active: local-discovery
-  #Zipkin
+#Zipkin
   zipkin:
     baseUrl: http://localhost:9411/
 #General configuration
