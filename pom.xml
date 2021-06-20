@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>ingjulianvega.ximic</groupId>
 	<artifactId>mssc-asu-gateway</artifactId>
-	<version>0.0.2-SNAPSHOT</version>
+	<version>0.0.4-SNAPSHOT</version>
 	<name>mssc-asu-gateway</name>
 	<description>ASU gateway microservice</description>
 	<properties>

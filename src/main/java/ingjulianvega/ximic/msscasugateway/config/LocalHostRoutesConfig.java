@@ -92,13 +92,13 @@ public class LocalHostRoutesConfig {
                                 .uri("http://localhost:8087"))
                 .route("mssc-asu-document-type",
                         r -> r.path("/asu/v1/document-type/**")
-                                .uri("http://localhost:8086"))
+                                .uri("http://localhost:8085"))
                 .route("mssc-asu-arl",
                         r -> r.path("/asu/v1/arl/**")
-                                .uri("http://localhost:8085"))
+                                .uri("http://localhost:8084"))
                 .route("mssc-asu-eps",
                         r -> r.path("/asu/v1/eps/**")
-                                .uri("http://localhost:8084"))
+                                .uri("http://localhost:8083"))
                 .route("mssc-asu-occupation",
                         r -> r.path("/asu/v1/occupation/**")
                                 .uri("http://localhost:8082"))
