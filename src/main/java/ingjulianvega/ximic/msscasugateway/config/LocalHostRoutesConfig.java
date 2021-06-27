@@ -62,7 +62,7 @@ public class LocalHostRoutesConfig {
                                 .uri("http://localhost:8098"))
                 .route("mssc-asu-recommendation-type",
                         r -> r.path("/asu/v1/recommendation-type/**")
-                                .uri("http://localhost:8105"))
+                                .uri("http://localhost:8096"))
                 .route("mssc-asu-duration",
                         r -> r.path("/asu/v1/duration/**")
                                 .uri("http://localhost:8095"))
